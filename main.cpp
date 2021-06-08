@@ -1,4 +1,9 @@
-#include "Laba14.h"
+#include "Worker.h"
+#include "WorkerDB.h"
+#include "Sale.h"
+#include "Accountant.h"
+#include "Developer.h"
+#include "List.h"
 
 
 int main() {

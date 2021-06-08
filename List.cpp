@@ -1,4 +1,4 @@
-#include "Laba14.h"
+#include "List.h"
 
 Node::Node(Worker* _val) {//+
 	val = _val;
@@ -59,6 +59,14 @@ void list::remove_last() {
 	p->next = nullptr;
 	delete last;
 	last = p;
+}
+
+Node* list::getFirst() const {
+	return first;
+}
+
+Node* list::getLast() const {
+	return last;
 }
 
 void list::remove(Worker* _val) {
